@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <!--- primary meta tags---->
+    <title>Royal Drinks</title>
+    <meta name="title" content="Royal Drinks">
+    <meta name="description" content="web o fiktivním baru, projekt ">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/dotaznik.css">
+    <link rel="stylesheet" href="./assets/css/kontakty.css">
+
+   
+    <!-- preload images -->
+    <link rel="preload" as= "image" href="./assets/images/hero-slider-1.jpg">
+    <link rel="preload" as= "image" href="./assets/images/hero-slider-2.jpg">
+    <link rel="preload" as= "image" href="./assets/images/hero-slider-3.jpg">
+</head>
+<body id="#top">
+    <!-- PRELOADER -->
+
+    <div class="preload " data-preaload>
+        <div class="circle"></div>
+    </div>
+
+ <!-- TOP BAR -->
+
+    <div class="topbar">
+        <div class="container">
+
+            <address class="topbar-item">
+                <div class="icon">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">
+                    V Kolkovně 3, 110 00 Staré Město
+                </span>
+
+            </address>
+
+            <div class="separator"></div>
+
+            <div class="topbar-item item-2">
+                <div class="icon">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span"> otevřeno od 17:00 do 4:00</span>
+            </div>
+
+            <a href="tel:+420 159 423 165" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">+420 159 423 165</span>
+            </a>
+
+            <div class="separator"></div>
+
+            <a href="mail:royaldrinks@official.com" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">royaldrinks@official.com</span>
+            </a>
+
+        </div>
+    </div>
+
+<!-- HEADER -->
+
+<header class="header" data-header>
+
+    <div class="container">
+
+        <a href="#" class="logo">
+             <img src="logo2.png" width="200" height="100" alt="our bar-home" > 
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+            <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a href="#" class="logo">
+                <img src="logo2.png" width="200" height="100" alt="our bar-home" > 
+           </a>
+
+           <ul class="navbar-list">
+
+            <li class="navbar-item">
+                <a href="#uvod" class="navbar-link hover-underline active">
+                    <div class="separator"></div>
+
+                    <span class="span">Úvod</span>
+                </a>
+            </li>
+
+            <li class="navbar-item">
+                <a href="#onas" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">O Nás</span>
+                </a>
+            </li>
+
+            <li class="navbar-item">
+                <a href="#produkty" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Produkty</span>
+                </a>
+            </li>
+
+            <li class="navbar-item">
+                <a href="#galerie" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Galerie</span>
+                </a>
+            </li>
+            
+            <li class="navbar-item">
+                <a href="#akce" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Akce</span>
+                </a>
+            </li>
+
+            <li class="navbar-item">
+                <a href="#dotaznik" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Dotazník</span>
+                </a>
+            </li>
+
+            <li class="navbar-item">
+                <a href="#kontakty" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Kontakty</span>
+                </a>
+            </li>
+
+           </ul>
+   
+           <div class="text-center">
+            <p class="headline-1 navbar-title">Navštivte Nás</p>
+
+                <address class="body-4">
+                    V Kolkovně 3, 110 00 Staré Město
+                </address>
+
+                <p class="body-4 navbar-text">otevřeno od 17:00 do 4:00</p>
+
+                <a href="e-mail: Lorem ipsum@ourbar.cz" class=" body-4 sidebar-link">royaldrinks@official.com</a>
+
+                <div class="separator"></div>
+
+                <p class="contact-label">Kontakt</p>
+
+                <a href="tel:+420159423165" class="body-1 contact-number hover-underline">
+                    +420 159 423 165
+                </a>
+
+           </div>
+
+
+        </nav>
+
+        
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+</header>
+    
+
+
+<main>
+    <article>
+        <!-- HERO -->
+        
+        <section class="hero text-center" aria-label="home" id="uvod">
+            <ul class="hero-slider" data-hero-slider >
+                <li class="slider-item active" data-hero-slider-item>
+
+                    <div class="slider-bg">
+                        <img src="./assets/images/hero-slider-1.png" width="1880" height="950" alt="" class="img-cover">
+                    </div>
+
+                    <p class="label-2 section-subtitle slider-reveal">Royal Drinks</p>
+
+                    <h1 class="display-1 hero-title slider-reveal">
+                        Mistrovské drinky
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        vyladěny pro Vaše chuťové buňky
+                    </p>
+
+                
+
+
+                </li>
+
+                <li class="slider-item " data-hero-slider-item>
+
+                    <div class="slider-bg">
+                        <img src="./assets/images/hero-slider-2.png" width="1880" height="950" alt="" class="img-cover">
+                    </div>
+
+                    <p class="label-2 section-subtitle slider-reveal">Royal Drinks</p>
+
+                    <h1 class="display-1 hero-title slider-reveal">
+                        Nezapomenutelné chvíle 
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        plné chutí i elegance
+                    </p>
+
+                
+
+
+                </li>
+
+                <li class="slider-item " data-hero-slider-item>
+
+                    <div class="slider-bg">
+                        <img src="./assets/images/hero-slider-3.png" width="1880" height="950" alt="" class="img-cover">
+                    </div>
+
+                    <p class="label-2 section-subtitle slider-reveal">Royal Drinks</p>
+
+                    <h1 class="display-1 hero-title slider-reveal">
+                        Místo pro Váš královský komfort
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        Pyšníme se pobočkami v každém větším městě
+                    </p>
+
+
+
+                </li>
+            </ul>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                <ion-icon name="chevron-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </button>
+
+          
+
+        </section>
+
+
+
+        <!-- ABOUT -->
+
+        <section class="section about text-center" aria-labelledby="about-label" id="onas">
+
+            <div class="container">
+
+                <div class="about-content">
+
+                    <p class="label-2 section-subtitle" id="about-label">O Nás</p>
+
+                    <h2 class="headline-1 section-title">Royal Drinks</h2>
+
+                    <p class="section-text">
+                        Luxusní bar v srdci města vznikl s vášní spojit exkluzivitu s vynikajícím zážitkem. 
+                        Cílem je vytvořit útočiště pro ty, kteří ocení eleganci a dokonalost. Každý detail, od interiéru po nápoje, 
+                        odráží naši oddanost excelenci. Nabízíme špičkové koktejly, výběr z nejlepších vín a destilátů, a mistrovský 
+                        servis od našich barmanů a baristů. Royal Drinks je oázou pro ty, kteří hledají oddech od každodenního shonu.
+                    </p>
+
+                    <div class="contact-label">Zarezervujte si box</div>
+
+                    <a href="tel:+420159423165" class="body-1 contact-number hover-underline">+420 159 423 165</a>
+
+                    <a class="btn btn-primary" href="#clenove">
+                        <span class="text text-1">Členové</span>
+
+                        <span class="text text-2" aria-hidden="true">Členové</span>
+
+                    </a>
+
+                </div>
+
+                <figure class="about-banner">
+
+                    <img src="./assets/images/bar_2.jpeg" width="570" height="570" loading="lazy" alt="about banner" class="w-100"
+                        data-parallax-item data-parallax-speed="1">
+
+                    <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+                        <img src="./assets/images/bar_5.png" width="285" height="285" loading="lazy" alt="" class="w-100">
+                    </div>
+
+                    <div class="abs-img abs-img-2 has-before">
+                        <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="" >
+                    </div>
+
+                </figure> 
+                
+
+                <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+
+            </div>
+        </section>
+
+
+
+
+        <!-- MEMBERS -->
+
+        <section class="section service bg-black-10 text-center" aria-label="service" id="clenove">
+            <div class="container">
+
+                <p class="section-subtitle label-2">Royal Drinks</p>
+
+                <h2 class="headline-1 section-title">Náš Tým </h2>
+
+                <p class="section-text">Jsme tým vášnivých tvůrců nejvyššího gastronomického umění, 
+                    kde spojujeme své jedinečné dovednosti a nadšení pro luxusní pohostinnost.</p>
+
+                <ul class="grid-list">
+                    <li>
+                        <div class="service-card">
+
+                            <a href="./portfolio - Kristyna/index.html" class="has-before hover:shine">
+                                <figure class="card-banner img-holder" style="--width: 285; --height:336;">
+                                    <img src="./assets/images/member-1.png" width="285" height="336" loading="lazy" alt="Lorem ipsum" 
+                                    class="img-cover">
+                                </figure>
+                            </a>
+
+                            <div class="card-content">
+
+                                <h3 class="title-4 card-title">
+                                    <a href="./portfolio - Kristyna/index.html">Kristýna Kořínková</a>
+                                </h3>
+
+                                <a href="./portfolio - Kristyna/index.html" class="btn-text hover-unerline label-2">Manařér <br> Hlavní Barman</a>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="service-card">
+
+                            <a href="./portfolio - Andreea/portfolio.html" class="has-before hover:shine">
+                                <figure class="card-banner img-holder" style="--width: 285; --height:336;">
+                                    <img src="./assets/images/member-2.jpg" width="285" height="336" loading="lazy" alt="Lorem ipsum" 
+                                    class="img-cover">
+                                </figure>
+                            </a>
+
+                            <div class="card-content">
+
+                                <h3 class="title-4 card-title">
+                                    <a href="./portfolio - Andreea/portfolio.html">Andreea Gutu</a>
+                                </h3>
+
+                                <a href="./portfolio - Andreea/portfolio.html" class="btn-text hover-unerline label-2">Majitelka</a>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="service-card">
+
+                            <a href="./portfolio - Matěj/portfolio.html" class="has-before hover:shine">
+                                <figure class="card-banner img-holder" style="--width: 285; --height:336;">
+                                    <img src="./assets/images/member-3.png" width="285" height="336" loading="lazy" alt="Lorem ipsum" 
+                                    class="img-cover">
+                                </figure>
+                            </a>
+
+                            <div class="card-content">
+
+                                <h3 class="title-4 card-title">
+                                    <a href="./portfolio - Matěj/portfolio.html"> Matěj Rojt</a>
+                                </h3>
+
+                                <a href="./portfolio - Matěj/portfolio.html" class="btn-text hover-unerline label-2"> Správce sociálních sítí <br> Marketing</a>
+                            </div>
+
+                        </div>
+                    </li>
+
+                </ul>     
+
+                <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="1loremipsum" class="shape shape-1 move-anim">
+                <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="2loremipsum" class="shape shape-2 move-anim">
+
+            </div>
+        </section>
+
+
+
+
+
+
+        <!-- MENU DRINKS-->
+
+        <section class="section menu" aria-label="menu-label" id="produkty">
+
+            <div class="container">
+
+                <p class="section-subtitle text-center label-2">Sekce Drinků</p>
+
+                <h2 class="headline-1 section-title text-center">Oblíbené Drinky</h2>
+
+                <ul class="grid-list">
+
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100  ; --height: 100 ;">
+                                <img src="./assets/images/drink-1.jpg" width="100" height="100" loading="lazy" alt="drink1" class="img-cover">
+                            </figure>
+
+                            <div>
+                                <div class="title-wraper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Mojito</a>
+                                    </h3>
+
+                                    <span class="span title-2">100kč</span>
+                                </div>
+
+                                <p class="card-text label1">
+                                    Je kubánský koktejl z rumu, máty, limetky, cukru a vody. Jeho původ sahá do 16. století a byl oblíbeným nápojem Ernesta Hemingwaye.
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </li>
+
+ 
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100  ; --height: 100 ;">
+                                <img src="./assets/images/drink-2.jpg" width="100" height="100" loading="lazy" alt="drink2" class="img-cover">
+                            </figure>
+
+                            <div>
+                                <div class="title-wraper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Piňa colada</a>
+                                    </h3>
+
+                                    <span class="span title-2">160kč</span>
+                                </div>
+
+                                <p class="card-text label1">
+                                    Je koktejl z rumu, kokosového krému a ananasového džusu, který vznikl v Portoriku. Je to sladký a osvěžující letní drink.
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100  ; --height: 100 ;">
+                                <img src="./assets/images/drink-3.jpg" width="100" height="100" loading="lazy" alt="drink3" class="img-cover">
+                            </figure>
+
+                            <div>
+                                <div class="title-wraper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Blue Lagoon</a>
+                                    </h3>
+
+                                    <span class="span title-2">150kč</span>
+                                </div>
+
+                                <p class="card-text label1">
+                                    Je modrý koktejl z vodky, modrého curaçaa a limonády, který vznikl v Paříži. Je osvěžující a podává se s ledem a citronem. 
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100  ; --height: 100 ;">
+                                <img src="./assets/images/drink-4.jpg" width="100" height="100" loading="lazy" alt="drink4" class="img-cover">
+                            </figure>
+
+                            <div>
+                                <div class="title-wraper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Cosmopolitan</a>
+                                    </h3>
+
+                                    <span class="span title-2">160kč</span>
+                                </div>
+
+                                <p class="card-text label1">
+                                    Je růžový koktejl z vodky, pomerančového likéru, limetky a brusinek. Může být připraven různě, například s vínem, ginem nebo jahodami.  
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100  ; --height: 100 ;">
+                                <img src="./assets/images/drink-5.jpg" width="100" height="100" loading="lazy" alt="drink5" class="img-cover">
+                            </figure>
+
+                            <div>
+                                <div class="title-wraper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Cuba libre</a>
+                                    </h3>
+
+                                    <span class="span title-2">100kč</span>
+                                </div>
+
+                                <p class="card-text label1">
+                                    Je koktejl z rumu, coly a limetky, který vznikl na počest osvobození Kuby od Španělska. Je to osvěžující a oslavný nápoj pro horké letní dny. 
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100  ; --height: 100 ;">
+                                <img src="./assets/images/drink-6.png" width="100" height="100" loading="lazy" alt="drink6" class="img-cover">
+                            </figure>
+
+                            <div>
+                                <div class="title-wraper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Aperol spritz</a>
+                                    </h3>
+
+                                    <span class="span title-2">120kč</span>
+                                </div>
+
+                                <p class="card-text label1">
+                                    Je italský koktejl z Aperolu, Prosecca a sodové vody, který má oranžovou barvu a hořkosladkou chuť. Podává jako aperitiv s ledem a plátkem pomeranče.   
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                </ul>
+
+              
+
+
+                <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+
+                <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-3 move-anim">
+
+
+            </div>
+        </section>
+
+
+        <!-- GALERIE-->
+
+        <div class="body" id="galerie">
+
+            <!-- obsah -->
+            <div class="wrapper row2">
+              <div id="container" class="clear container_mobile">
+                <!-- slider -->
+                <section id="slider" class="clear galerie">
+                  <figure>
+                    <img class="gallery_img" src="./assets/images/630x300.png" alt="">
+                    
+                    <figcaption>
+                      <h2>Informace</h2>
+                      <p>Prohlédněte si náš luxusní bar prostřednictvím naší exkluzivní galerie.
+                        Vstupujte do srdce opulentního luxusu a prozkoumejte naši virtuální galerii, kde se setkává jedinečný interiér s atmosférou a nevšední elegance a mistrovské drinky</p>
+                      <footer class="more"><a href="#onas">Číst více &raquo;</a></footer>
+                    </figcaption>
+                  </figure>
+                </section>
+                <!-- hlavní obsah -->
+                <div id="intro">
+                  <section class="clear">
+                    <!-- článek 1 -->
+                    <article class="two_quarter">
+                      <h2>Galerie</h2>
+                      <p>Každý snímek vypráví příběh o eleganci, skvostných chutích, okouzlující atmosféře a mistrovských drinků, které nabízíme. </p>
+                      <p>Každý drink, pečlivě vytvořený barmany s vášní pro detail, je uměleckým dílem. Představte si křišťálovou sklenici, která se leskne v ruce, když vám je podávána, 
+                        a jak každý doušek odkrývá noty exkluzivních ingrediencí v dokonalém harmonickém taktu.</p>
+                    </article>
+                    <!-- článek 2 -->
+                    <article class="two_quarter lastbox">
+                      <figure>
+                        <ul class="clear">
+                          <li><a href="#"><img src="./assets/images/A.png" height="130" alt=""></a></li>
+                          <li><a href="#"><img src="./assets/images/B.png" height="130" alt=""></a></li>
+                          <li class="last"><a href="#"><img src="./assets/images/C.jpg" height="130" alt=""></a></li>
+                        </ul>
+                        <figcaption><a href="#galerie2">Podívej se na galerii &raquo;</a></figcaption>
+                      </figure>
+                    </article>
+                  </section>
+                  
+                </div>
+                
+              </div>
+            </div>
+            
+            
+            
+            </div>
+
+
+            <br>
+            <br>
+
+
+       <div class="container-gallerey" id="galerie2">
+
+        <p class="section-subtitle text-center label-2">Galerie</p>
+
+        <div class="gallery-area">
+            <div class="single-img">
+                <img src="./assets/images/1.png" width="450" height="450">
+            </div>
+
+            <div class="single-img">
+                <img src="./assets/images/2.png" width="450" height="450">
+            </div>
+
+            <div class="single-img">
+                <img src="./assets/images/3.png" width="450" height="450">
+            </div>
+
+            <div class="single-img">
+                <img src="./assets/images/4.jpg" width="450" height="450">
+            </div>
+
+            <div class="single-img">
+                <img src="./assets/images/5.jpg" width="450" height="450">
+            </div>
+
+            <div class="single-img">
+                <img src="./assets/images/6.jpg" width="450" height="450">
+            </div>
+
+            <div class="single-img">
+                <img src="./assets/images/7.jpg" width="450" height="450">
+            </div>
+
+            <div class="single-img">
+                <img src="./assets/images/8.png" width="450" height="450">
+            </div>
+
+            <div class="single-img">
+                <img src="./assets/images/9.jpg" width="450" height="450">
+            </div>
+        </div>
+
+        
+        <img src="./assets/images/shape-2 - 2.png" width="343" height="345" loading="lazy" alt="2loremipsum" class=" shape-2 move-anim">
+       </div>
+
+
+
+
+        <!-- EVENT-->
+
+        <section class="section event bg-black-10" aria-label="event" id="akce">
+
+            <div class="container">
+
+                <p class="section-subtitle label-2 text-center">Akce</p>
+
+                <h2 class="section-title headline-1 text-center">Nenechte si ujít naše úžasné akce</h2>
+
+                <ul class="grid-list">
+
+                    <li>
+                        <div class="event-card has-before hover:shine">
+
+                            <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                                <img src="./assets/images/event-1.png" width="350" height="450" loading="lazy" alt="" class="img-cover">
+
+                                <time class="publish-date label-2" datetime="2024">20.1.2024</time>
+                            </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">Royal Drinks</p>
+
+                                    <h3 class="card-title title-2 text-center">Aperol Spritz zdarma</h3>
+                                
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="event-card has-before hover:shine">
+
+                            <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                                <img src="./assets/images/event-2.png" width="350" height="450" loading="lazy" alt="" class="img-cover">
+
+                                <time class="publish-date label-2" datetime="2024">14.2.2024</time>
+                            </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">Royal Drinks</p>
+
+                                    <h3 class="card-title title-2 text-center">Valentine Party</h3>
+                                </div>
+
+                            
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="event-card has-before hover:shine">
+
+                            <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                                <img src="./assets/images/event-3.png" width="350" height="450" loading="lazy" alt="" class="img-cover">
+
+                                <time class="publish-date label-2" datetime="2024">9.3.2024</time>
+                            </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">Royal Drinks</p>
+
+                                    <h3 class="card-title title-2 text-center">Fresh Night</h3>
+                                </div>
+
+                            
+
+                        </div>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+            <img src="./assets/images/shape-3 - 3.png" width="197" height="194" loading="lazy"  class="led">
+
+        </section>
+        
+
+        <!-- DOTAZNIK-->
+
+        <section class="dotaznik-spokojenosti" id="dotaznik">
+            <p class="section-subtitle text-center label-2">Dotazník spokojenosti s webem</p>
+            <div class="container-dotaznik">
+                
+                <div id="description-dotaznik ">
+                    
+               
+                <form id="survey-dotaznik">
+                    <div class="row-dotaznik">
+                        <div class="label-dotaznik">
+                            <label>Existuje něco v designu, co by podle vás mohlo být vylepšeno?
+                            </label>
+                        </div>
+                        <div class="input-dotaznik input-decor">
+                            <input type="text" placeholder="Vaše zpráva... " >
+                        </div>
+                    </div>
+        
+                    <div class="row-dotaznik">
+                        <div class="label-dotaznik">
+                            <label>
+                                Jsou nějaké konkrétní aspekty, které by mohly zpříjemnit nebo zefektivnit uživatelskou zkušenost?
+                            </label>
+                        </div>
+                        <div class="input-dotaznik input-decor">
+                            <input type="text" placeholder="Vaše zpráva... ">
+                        </div>
+                    </div>
+        
+                    <div class="row-dotaznik">
+                        <div class="label-dotaznik">
+                            <label>Jsou na naší stránce dostatečné informace o nabídce nápojů a akcí v našem baru?
+                            </label>
+                        </div>
+                        <div class="input-dotaznik input-decor" >
+                            <input type="text" placeholder="Vaše zpráva... " >
+                        </div>
+                    </div>
+        
+                    <div class="row-dotaznik">
+                        <div class="label-dotaznik">
+                            <label>Je něco, co byste případně chtěl(a) vědět a nenacházíte to na našem webu?
+                            </label>
+                        </div>
+                        <div class="input-dotaznik input-decor" >
+                            <input type="text" placeholder="Vaše zpráva... ">
+                        </div>
+                    </div>
+        
+                    <div class="row-dotaznik">
+                        <div class="label-dotaznik">
+                            <label>Jak vnímáte využití grafických prvků a médií na naší stránce?
+                            </label>
+                        </div>
+                        <div class="select-dotaznik">
+                            <select id="select-box">
+                                <option></option>
+                                <option>Velmi Dobré</option>
+                                <option>Dobré</option>
+                                <option>Špatné</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                   
+        
+                    <div class="row-dotaznik">
+                        <div class="label-dotaznik">
+                            <label>Jak hodnotíte efektivitu rezervačního systému na naší webové stránce?
+                            </label>
+                        </div>
+                        <div class="input-dotaznik">
+                            <div><input type="checkbox" name="project" value="font-end project"> <label> Přehledné </label></div>
+                            <div><input type="checkbox" name="project" value="font-end project"> <label> Dostatečné </label></div>
+                            <div><input type="checkbox" name="project" value="font-end project"> <label> Neřehledné </label></div>
+                        </div>
+                    </div>
+                </form>
+                </div>
+        
+        
+        
+                <div id="description-dotaznik " >
+                <form id="survey-dotaznik ">
+        
+                    <div class="row-dotaznik">
+                        <div class="label-dotaznik">
+                            <label>Jak obtížná nebo jednoduchá je navigace na naší webové stránce?</label>
+                        </div>
+                        <div class="select-dotaznik">
+                            <select id="select-box" >
+                                <option></option>
+                                <option>Jednoduché</option>
+                                <option>Velmi Jednoduché</option>
+                                <option>Obtížné</option>
+                                <option>Velmi obtížné</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    <div class="row-dotaznik">
+                        <div class="label-dotaznik">
+                            <label>Jak hodnotíte vizuální dojem naší webové stránky?</label>
+                        </div>
+                        <div class="input-dotaznik">
+                             <div><input type="radio" name="suggest" value="definitely"> <label>Výborné</label></div>
+                             <div><input type="radio" name="suggest" value="mabye"> <label>Dostatečné</label></div>
+                             <div><input type="radio" name="suggest" value="not sure"> <label>Nedostatečné</label></div>
+                        </div>
+                    </div>
+        
+                    <div class="row-dotaznik">
+                        <div class="label-dotaznik">
+                            <label>
+                                Jak dobře se naše webová stránka přizpůsobuje různým zařízením (mobil, tablet, počítač)?
+                            </label>
+                        </div>
+                        <div class="select-dotaznik">
+                            <select id="select-box">
+                                <option></option>
+                                <option> V pořádku</option>
+                                <option>Občas blbne</option>
+                                <option>Špatné</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    
+                </form>
+        
+                <div class="textarea-dotaznik">
+                    <div class="label-dotaznik">
+                        <label>Máte nějaký návrh na zlepšení aktuálnosti obsahu?</label>
+                    </div>
+                    <div class="input-dotaznik column-textarea">
+                        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Vaše zpráva... "></textarea>
+                    </div>
+                </div>
+        
+                
+                </div>
+            </div>
+        
+            <div class="container-dotaznik">
+        
+                <div class="funkce-dotaznik">
+                    <form >
+                        <input type="submit" name="submit">
+                    </form>
+                    
+                </div>
+            </div>
+        
+        
+        </section>
+
+
+
+        
+        
+    </article>
+
+    
+</main>
+
+
+ <!-- KONTAKTY-->
+
+
+
+ <p class="section-subtitle text-center label-2" id="kontakty">Kontakty</p>
+ <div class="body">
+    
+    <div class="wrapper-kontakty">
+        <header>+420 159 423 165 | royaldrinks@official.com</header>
+        <form action="./message.php" method="post">
+            <div class="dbl-field">
+                <div class="field">
+                    <input type="text" name="name" placeholder="Jméno...">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <div class="dbl-field">
+                <div class="field">
+                    <input type="text" name="email" placeholder="Email...">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="field">
+                    <input type="text" name="phone" placeholder="Telefoní číslo...">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+            </div>
+            <div class="message">
+                <textarea placeholder="Write your message" name="message"></textarea>
+                <i class="material-icons">message</i>
+            </div>
+        
+            <div class="button-area">
+                <button type="submit">Poslat</button>
+                <span>Odesílání...</span>
+            </div>
+        </form>
+        
+    </div>
+
+    <script src="kontakty.js"></script>
+</div>
+
+<!-- MAPA-->
+<div class="map-responsive">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.824454226074!2d14.41932497653603!3d50.08957347152552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94e9bc64e0f9%3A0xedfbc26f593d0008!2sKenton&#39;s%20New%20York%20Bar!5e0!3m2!1scs!2scz!4v1705174243724!5m2!1scs!2scz" 
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+<!-- FOOTER-->
+<footer class="paticka">
+    <div class="patickaContainer">
+        <div class="socialIkons">
+            <a href="https://www.instagram.com/royaldrinksofficial/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="patickaNav">
+            <ul>
+                <li><a href="#uvod">Úvod</a></li>
+                <li><a href="#onas">O Nás</a></li>
+                <li><a href="#produkty">Produkty</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#dotaznik">Dotazník</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="patickaBottom">
+        <p> &copy;2024 | Andreea Gutu</span></p>
+    </div>
+</footer>
+
+<!-- BACK TO TOP-->
+
+    <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn >
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+
+    <!-- js link -->
+    <script src="./assets/js/script.js"></script>
+    <script src="kontakty.js"></script>
+
+
+    <!-- icon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

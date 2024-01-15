@@ -1,0 +1,133 @@
+:root {
+--gold-crayola: hsl(38, 61%, 73%);
+  --davys-grey: hsla(30, 3%, 34%, 1);
+  --smoky-black-1: hsla(40, 12%, 5%, 1);
+  --white-alpha-20: hsla(0, 0%, 100%, 0.2);
+}
+
+#text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#description-dotaznik {
+    text-align: center;
+}
+
+.container-dotaznik {
+    width: 100%;
+    margin: auto;
+    background-color: var(--smoky-black-1);
+    color: var(--davys-grey);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nadpis {
+    text-align: center;
+}
+
+#survey-dotaznik {
+    text-align: center;
+}
+
+.row-dotaznik {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.label-dotaznik {
+    display: inline-block;
+    width: 44%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.input-dotaznik {
+    display: inline-block;
+    width: 54%;
+    text-align: left;
+}
+
+.input-decor input {
+    background-color:var(--white-alpha-20);
+    height: 35px !important;
+    width: 200px !important;
+    border-radius: 5px;
+}
+
+.select-dotaznik {
+    display: inline-block;
+    width: 54%;
+    text-align: left;
+}
+
+#select-box {
+    padding: 5px 0px;
+    background-color:var(--white-alpha-20);
+    border-radius: 5px;
+    width: 20rem;
+}
+
+textarea {
+    background-color:var(--white-alpha-20);
+    min-height: 10px;
+    max-height: 228px;
+    width: 74%;
+    border-radius: 5px;
+}
+
+
+.funkce-dotaznik input{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--gold-crayola);
+    border: none;
+    border-radius: 5px;
+    width: fit-content !important;
+}
+
+
+
+@media (min-width: 320px) {
+    .container-dotaznik {
+        width: 90%;
+    }
+}
+
+@media (min-width: 375px) {
+    .container-dotaznik {
+        width: 90%;
+    }
+}
+
+@media (min-width: 412px) {
+    .container-dotaznik {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container-dotaznik {
+        width: 95%;
+        height: 100%;
+    }
+
+    .column-textarea {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1024px) {
+   .container-dotaznik {
+        width: 95%;
+    } 
+}
+

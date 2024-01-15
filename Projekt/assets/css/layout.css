@@ -1,0 +1,113 @@
+:root {
+
+    /*COLOR*/
+  --gold-crayola: hsl(38, 61%, 73%);
+
+}
+
+
+.body{margin:0; padding:0; font-size:13px; font-family:  serif; color:#919191; }
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+ .clear{display:block;}
+ .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid var(--gold-crayola); text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------HTML 5 přepisy-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; line-height:normal;}
+q:before{content:'� '; font-size:26px;}
+q:after{content:' �'; font-size:26px; line-height:0;}
+
+/* ----------------------------------------------Obal-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+
+.row2{color:#979797; }
+.row2 a{color: var(--gold-crayola); }
+
+
+/*----------------------------------------------Základní nastavení prvků na webu-------------------------------------*/
+
+#container, #footer{display:block; width:960px; margin:0 auto;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:22px; font-weight:normal; line-height:normal;}
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color:#979797;  line-height:normal;}
+blockquote:before, q:before{content:'� '; font-size:26px;}
+blockquote:after, q:after{content:' �'; font-size:26px; line-height:0;}
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Times,serif;}
+
+.two_quarter, .three_quarter, .four_quarter{display:block; float:left; margin:0 20px 0 0;}
+.two_quarter{width:470px;}
+.three_quarter{width:715px;}
+.four_quarter{width:960px; float:none; margin-right:0; clear:both;}
+
+.one_third, .two_third, .three_third{display:block; float:left; margin:0 30px 0 0;}
+.one_third{width:300px;}
+.two_third{width:630px;}
+.three_third{width:960px; float:none; margin-right:0; clear:both;}
+
+.lastbox{margin-right:0;}
+
+
+
+/*----------------------------------------------Obsah-------------------------------------*/
+
+#container{padding:30px 0;}
+#container section{display:block; margin-bottom:30px; padding:0;}
+#container .last{margin:0;}
+
+
+/* ------Slider-----*/
+
+#container #slider{width:100%;}
+#container #slider figure{}
+#container #slider figure img{float:right; width:630px; height:300px;}
+#container #slider figure figcaption{display:block; float:left; width:290px; height:260px; padding:20px; overflow:hidden; color:#989898; background-color:#464646; line-height:1.6em;}
+#container #slider figure figcaption a{color:var(--gold-crayola); background-color:#464646;}
+#container #slider figure h2{font-size:42px; font-weight:normal; font-style:italic; text-transform:none;}
+#container #slider figure footer{}
+
+/* ------Hlavní obsah-----*/
+
+#container #intro section{width:100%;}
+#container #intro section article{}
+#container #intro section article h2{margin-bottom:15px;}
+#container #intro section article p{}
+#container #intro section article figure ul{display:block; width:100%; margin:0; padding:0; list-style:none;}
+#container #intro section article figure ul li{display:inline-block; float:left; margin:0 25px 0 0;}
+#container #intro section article figure ul li.last{margin:0;}
+#container #intro section article figure ul li img{width:130px; height:130px; margin:0; padding:4px; border:1px solid}
+#container #intro section article figure figcaption{display:block; width:100%; margin-top:20px; clear:both; text-align:center; text-transform:uppercase; font-weight:bold;}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
